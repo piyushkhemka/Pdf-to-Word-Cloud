@@ -1,11 +1,14 @@
-### Creates a Word Cloud from a given pdf
+### Generate a Word Cloud from any pdf
 
 
-Simply add a the name of the pdf in main.py and provide the starting page & end page and get a word cloud
+To generate a word cloud from a pdf, add the name of the pdf in main.py. Also,
+provide the starting page number & the ending page which the word cloud generator should consider.
+
 
 Here are some examples
 
 Indian Constitution
+------
 ------
 ![word cloud of Indian Constitution](examples/constitution_of_india.jpeg)
 
@@ -13,9 +16,11 @@ Indian Constitution
 
 Animal Farm by George Orwell
 ------
+------
 ![word cloud of Animal Farm by George Orwell](examples/animal_farm.jpeg)
 
 Pride and Prejudice by Jane Austen
+------
 ------
 ![word cloud of Pride and Prejudice by Jane Austen](examples/pride_and_prejudice.jpeg)
 
@@ -24,6 +29,11 @@ Pride and Prejudice by Jane Austen
 
 Requirements
 ------
+------
 Python
+
+
 PyPDF2(https://github.com/mstamy2/PyPDF2)
+
+
 word_cloud(https://github.com/amueller/word_cloud)
