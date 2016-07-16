@@ -1,9 +1,18 @@
-# Indian Constitution Word Cloud
+### Creates a Word Cloud from a given pdf
 
-###Creates a word cloud of the Indian Constitution
+
+Simply add a the name of the pdf in main.py and provide the starting page & end page and get a word cloud
+
+Here are some examples
+
+![word cloud of Indian Constitution](examples/constitution_of_india.jpeg)
 
 The pdf of Indian Constitution was downloaded from the [website](http://indiacode.nic.in/coiweb/welcome.html) of  Ministry of Law and Justice (Legislative Department).
 
-Here is what the final word cloud looks like:
 
-![word cloud of Indian Constitution](consti.jpeg)
+![word cloud of Animal Farm by George Orwell](examples/animal_farm.jpeg)
+
+
+![word cloud of Pride and Prejudice by Jane Austen](examples/pride_and_prejudice.jpeg)
+
+Animal farm and Pride & Prejudice were downloaded from the website of [Project Gutenberg](https://www.gutenberg.org/)
