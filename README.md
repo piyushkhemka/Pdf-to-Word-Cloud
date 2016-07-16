@@ -20,3 +20,10 @@ Pride and Prejudice by Jane Austen
 ![word cloud of Pride and Prejudice by Jane Austen](examples/pride_and_prejudice.jpeg)
 
 *Animal farm and Pride & Prejudice were downloaded from the website of* [Project Gutenberg](https://www.gutenberg.org/)
+
+
+Requirements
+------
+Python
+PyPDF2(https://github.com/mstamy2/PyPDF2)
+word_cloud(https://github.com/amueller/word_cloud)
