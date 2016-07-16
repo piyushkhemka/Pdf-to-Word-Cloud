@@ -7,8 +7,8 @@ def get_string_from_pdf(pdf_path, start_page, end_page):
     pdfReader = PyPDF2.PdfFileReader(p)
     if pdfReader.isEncrypted:
         pdfReader.decrypt('')
-    #print (pdfReader.numPages)
-    for pageNum in range(start_page,end_page):
+    # print (pdfReader.numPages)
+    for pageNum in range(start_page, end_page):
         page = pdfReader.getPage(pageNum)
         if page.extractText() is not None:
             pageContents = page.extractText()
